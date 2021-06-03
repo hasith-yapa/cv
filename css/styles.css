@@ -1,0 +1,145 @@
+body {
+  color: #40514E;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #00adb5;
+  margin: 50px auto 0 auto;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  font-weight: normal;
+  color: #00adb5;
+  font-family: 'Abel', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h3 {
+  font-family: 'Abel', sans-serif;
+  color: #00adb5;
+}
+
+hr{
+  border: none;
+  border-top: 8px dotted #EAF6F6;
+  width: 5%;
+}
+
+p{
+  line-height: 2;
+}
+
+/******************************************* Classes *******************************************/
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.BUTTON_XCX {
+  -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 17px;
+   background-color: #393e46;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   line-height: normal;
+}
+
+.BUTTON_XCX:hover {
+  background: #11999E;
+   border: solid #11999E 0;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.contact-me{
+  width: 40%;
+  margin: 0 auto 50px auto;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+/*
+.eng {
+  text-decoration: underline;
+  background-color: white;
+}*/
+
+.footer-link{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  color: #11999E;
+  margin: 25px;
+}
+
+.footer-link:hover{
+  color: white;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.profilePic{
+  width: 30%;
+}
+
+.skill-1-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-2-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-container {
+  background-color: #393e46;
+  position: relative;
+  padding-top: 80px;
+}
+
+.middle-container {
+  background-color: white;
+}
+
+.bottom-container {
+  background-color: #393e46;
+  padding: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
